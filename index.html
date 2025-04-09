@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilities by Prof. Rahul M. Samant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a365d, #2a4365);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 20px -3px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            padding: 20px;
+            color: white;
+        }
+        
+        .card-body {
+            padding: 20px;
+            background-color: white;
+            min-height: 150px;
+        }
+        
+        .card-title {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        
+        .card-text {
+            color: #4a5568;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .card-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3182ce;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        
+        .card-link:hover {
+            background-color: #2b6cb0;
+        }
+        
+        .notes-card .card-header {
+            background: linear-gradient(135deg, #2c5282, #3182ce);
+        }
+        
+        .focus-card .card-header {
+            background: linear-gradient(135deg, #285e61, #38b2ac);
+        }
+        
+        .roadmap-card .card-header {
+            background: linear-gradient(135deg, #6b46c1, #805ad5);
+        }
+        
+        .aqi-card .card-header {
+            background: linear-gradient(135deg, #c05621, #ed8936);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Educational Utilities</h1>
+        <p class="subtitle">Developed by Prof. Rahul M. Samant</p>
+    </header>
+    
+    <div class="container">
+        <div class="card notes-card">
+            <div class="card-header">
+                <h2 class="card-title">Smart Note-Taking System</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">An intelligent note-taking platform designed for engineering students. Organize concepts, formulas, and important points with our specialized templates and collaborative features.</p>
+                <a href="https://rms-sof.github.io/TakeNotes/" class="card-link" id="notes-link">Access Tool</a>
+            </div>
+        </div>
+        
+        <div class="card focus-card">
+            <div class="card-header">
+                <h2 class="card-title">Mindful Multitasking Guard</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Stay focused and productive with our distraction management tool. Set focused work sessions, monitor your digital habits, and improve your concentration with mindfulness techniques.</p>
+                <a href="https://rms-sof.github.io/MultitaskGuard/" class="card-link" id="focus-link">Access Tool</a>
+            </div>
+        </div>
+        
+        <div class="card roadmap-card">
+            <div class="card-header">
+                <h2 class="card-title">Engineering Success Pathfinder</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">A comprehensive roadmap planner for engineering education success. Plan your academic journey, track milestones, and follow proven pathways to develop both technical and soft skills.</p>
+                <a href="https://rms-sof.github.io/RoadMap/" class="card-link" id="roadmap-link">Access Tool</a>
+            </div>
+        </div>
+        
+        <div class="card aqi-card">
+            <div class="card-header">
+                <h2 class="card-title">AQI Calculator & Analyzer</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Calculate, monitor, and understand Air Quality Index values. Compare data across locations, analyze trends, and learn about the environmental and health implications of air quality.</p>
+                <a href="https://rms-sof.github.io/AQI/" class="card-link" id="aqi-link">Access Tool</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Prof. Rahul M. Samant. All educational utilities designed to enhance the learning experience.</p>
+    </footer>
+
+    <script>
+       
+     
+        });
+    </script>
+</body>
+</html>
